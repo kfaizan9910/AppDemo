@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:elevation="@dimen/_2sdp"
+
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:padding="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="Id"
+
+                android:gravity="start"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="end"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="Employee Name"
+                android:gravity="start"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:id="@+id/empName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="end"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="Employee Salary"
+                android:gravity="start"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:id="@+id/empSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="end"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="Employee Age"
+                android:gravity="start"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+            <TextView
+                android:id="@+id/empAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="end"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/colorblack"
+                />
+        </GridLayout>
+
+</androidx.cardview.widget.CardView>
